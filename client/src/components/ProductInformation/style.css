@@ -1,0 +1,66 @@
+.productContainer{
+    width: 100%;
+}
+.inforBound{
+    width:  100%;
+    height: 80px;
+    background: #fff;
+    border: 1px solid #cecece;
+    padding:10px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.blockInfo{
+    width: 49%;
+    margin-bottom: 15px;
+    height: 320px;
+}
+.blockAddress{
+    width: 49%;
+    margin-bottom: 15px;
+    height: auto;
+}
+.RowInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    background: #fff;
+    border: 3px solid #cecece;
+    padding:10px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.RowInfoAddress{
+    margin: 5px 0;
+    background: #fff;
+    border: 3px solid #cecece;
+    padding:10px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.RowAddress{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.infoContainer{
+    margin: 0 50px;
+}
+.ButtonEdit{
+    display: flex;
+    justify-content: flex-end;
+}
+.avatarImage{
+    width: 250px;
+    height: 80%;
+}
+.avatarImage > img{
+    margin-top: 10px;
+    max-width: 100%;
+    height: 250px;
+    margin-left: 40px;
+}

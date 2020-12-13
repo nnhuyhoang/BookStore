@@ -1,0 +1,22 @@
+.CartWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.CartWrapper > .CartDetails{
+    width: 65%;
+    box-shadow: 0 0 2px 0px #cecece;
+    overflow: hidden;
+}
+.CardTitle{
+    padding: 10px 20px;
+    border-bottom: 1px solid #cecece;
+}
+.FinalBilling{
+    padding: 20px;
+}
+.Row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}

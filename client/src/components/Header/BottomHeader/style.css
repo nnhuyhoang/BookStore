@@ -1,0 +1,44 @@
+
+.BottomHeader{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #000;
+    margin-bottom: 20px;
+}
+.Menu{
+    display: flex;
+    position: relative;
+}
+.MenuItem{
+    list-style: none;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+.SubMenuDropdown{
+    position: absolute;
+    z-index: 2000;
+    background: #fff;
+    display: none;
+    margin-top: 10px;
+    width: auto;
+    opacity: 0;
+    transition: all 0.4s linear;
+    box-shadow: 0 0 4px -1px grey;
+}
+.SubMenuDropdown >li:hover{
+    background: #eee;
+}
+.Menu .MenuItem > a{
+    color: #333;
+    text-decoration: none;
+}
+.MenuItem:hover > .SubMenuDropdown{
+    display: block;
+    opacity: 1;
+}
+
+.modalForm{
+    right: 0;
+    position: relative;
+}

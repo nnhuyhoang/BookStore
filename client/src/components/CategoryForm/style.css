@@ -1,0 +1,16 @@
+.CategoryFormContainer{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+.selectCategory{
+    width: 45%;
+    margin-right: 20px;
+}
+.ButtonCate{
+    width: 45%;
+    margin-left: 20px;
+}
+.ButtonAreaInCategory{
+    margin-top: 20px;
+}

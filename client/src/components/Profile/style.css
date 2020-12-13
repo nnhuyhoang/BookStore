@@ -1,0 +1,17 @@
+
+.ProfileArea{
+    margin-top: 50px;
+}
+.OrderArea{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.SiteProfile{
+    margin-bottom: 5px;
+}
+
+.SiteProfile:hover{
+    cursor:pointer
+    
+}

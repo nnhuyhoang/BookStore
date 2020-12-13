@@ -1,0 +1,37 @@
+.modifiedContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modifiedProductArea{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.modifiedSearchOption{
+    width: 400px;
+    height: 35px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    display: flex; 
+    margin-bottom: 20px;
+}
+.modifiedSearchOption > select{
+    width: 30%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-family: 'Lato', sans-serif;
+    border-right: 1px solid #eee;
+}
+.modifiedSearchOption > input{
+    padding: 10px;
+    width: 90%;
+    border: none;
+}
+.modifiedSearchOption > button{
+    width: 10%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}

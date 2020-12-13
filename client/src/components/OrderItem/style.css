@@ -1,0 +1,51 @@
+.Order{
+    width: 49%;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 10px 10px 0;   
+    display:inline-block
+}
+
+.OrderWrapper{
+    width: 100%;
+    box-shadow: 0 0 2px 0px #cecece;
+}
+.CardOrderTitle{
+    padding: 10px 20px;
+    border-bottom: 1px solid #cecece;
+    display: flex;
+    justify-content: space-between;
+}
+.FinalOrderBilling{
+    padding: 5px 20px 5px 20px;
+}
+.itemOrderRow{
+    
+    width: 100%;
+    padding-left: 5%;
+    margin-bottom: 15px;
+}
+.subOrderRow{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.OrderRow{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.OrdertotalPay{
+    margin: 0;
+}
+.subAddressOrderRow{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    font-size: large;
+}
+.inlineTitleOrderitem{
+    margin: 0;
+}

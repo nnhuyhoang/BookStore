@@ -1,0 +1,9 @@
+.infoWindow{
+    width: 400px;
+    height: 100px;
+}
+
+.infoLine{
+    margin-bottom: 5px;
+    margin-top: 0;
+}

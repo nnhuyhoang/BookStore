@@ -1,0 +1,7 @@
+.ButtonElement{
+    width: 45%;
+}
+.ButtonArea{
+    display: flex;
+    justify-content: space-between;
+}

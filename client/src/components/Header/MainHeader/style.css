@@ -1,0 +1,48 @@
+.MainHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.SearchOption{
+    width: 400px;
+    height: 35px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    display: flex; 
+}
+.SearchOption > select{
+    width: 30%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-family: 'Lato', sans-serif;
+    border-right: 1px solid #eee;
+}
+.SearchOption > input{
+    padding: 10px;
+    width: 90%;
+    border: none;
+}
+.SearchOption > button{
+    width: 10%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.DropdownItem{
+    position: absolute;
+    z-index: 2000;
+    background: #fff;
+    display: block;
+    margin-top: 40px;
+    width: 400px;
+    opacity: 0;
+    transition: all 0.4s linear;
+    box-shadow: 0 0 4px -1px grey;
+    padding: 5px 5px;
+    opacity: 1;
+}
+.DropdownItem > li:hover{
+    background: #eee;
+}

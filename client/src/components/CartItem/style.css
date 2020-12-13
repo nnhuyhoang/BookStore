@@ -1,0 +1,34 @@
+.SingleItem{
+    border-bottom: 1px solid #cecece;
+    display: flex;
+    justify-content: space-between;
+}
+.ItemWrapper{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    
+}
+.ItemDescription{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10%;
+}
+.ItemDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+.ItemWrapper > .ItemDetails > .ItemName{
+    font-size: 14px;
+    color: #666;
+}
+.ItemWrapper > .ItemDetails > .ItemPrice{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.CartActionButtons{
+    display: flex;
+}

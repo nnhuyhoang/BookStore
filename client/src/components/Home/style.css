@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-size: 15px;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+.Content{
+    width: 95%;
+/*     border-top: 3px solid #000; */
+    margin: 0 auto;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.ContentTitle{
+    text-align: center;
+    margin: 20px 0;
+}
+.CategoryTitle{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+
+.ContentBody{
+    display: flex;
+    justify-content: center;
+}
+.ContentBody .SideMenu{
+    width: 20%;
+}
+.ContentBody .MainContent{
+    width: 70%;
+}
+.SideMenu{
+    border: 1px solid #cecece;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.SideMenu .SideMenuTitle{
+    font-size: 18px;
+    border-bottom: 1px solid #cecece;
+    padding: 5px 10px;
+}
+.Filter .FilterTitle{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.SideMenu ul{
+    position: relative;
+}
+.SideMenu ul li{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.SideMenu > ul > li > a:nth-of-type(1){
+    font-weight: bold;
+}
+.FilterButton{
+    background: #eee;
+    border: 1px solid #cecece;
+    width: 95%;
+    margin: 2px 5px;
+    padding: 5px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+.carouselSlider{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.carouselImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 400px;
+  }
+

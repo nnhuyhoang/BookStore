@@ -1,0 +1,29 @@
+.mainFooter{
+    color: white;
+    background-color: #cecece;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-self: flex-end;
+}
+.rowFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+    padding: 1em 4em;
+    color: black;
+}
+.rowCopy{
+    padding: 10px 0px 10px 0px;
+}
+.colCopy{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.listUnstyle{
+    font-size: large;
+}
