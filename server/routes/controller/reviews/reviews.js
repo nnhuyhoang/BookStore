@@ -49,7 +49,6 @@ module.exports.getReviewsByBookId = (req, res, next) => {
 
 module.exports.updateReview = async (req, res, next) => {
   const { content, rate, bookId, reviewId } = req.body;
-  console.log(req.body);
 
   try {
     const book = await Book.findById(bookId);
@@ -96,14 +95,12 @@ module.exports.deleteReview = async (req, res, next) => {
     if (deleteReview.n === 0)
       return Promise.reject({ status: 404, message: 'Review not found' });
 
-    return res
-      .status(200)
-      .json({
-        message: 'Delete Successfully',
-        reviewId: reviewId,
-        rateCount: book.rateCount,
-        rate: book.rate,
-      });
+    return res.status(200).json({
+      message: 'Delete Successfully',
+      reviewId: reviewId,
+      rateCount: book.rateCount,
+      rate: book.rate,
+    });
   } catch (err) {
     if (err.message === 'Review not found')
       return res.status(404).json({ message: err.message });
